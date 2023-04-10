@@ -9,6 +9,7 @@
 ./adb.exe shell pm list packages
 
 adb shell pm disable-user com.xiaomi.gamecenter
+
 adb shell pm uninstall --user 0 cn.wps.moffice_eng.xiaomi.lite
 adb shell pm uninstall --user 0 com.android.bips
 adb shell pm uninstall --user 0 com.android.browser
@@ -18,14 +19,13 @@ adb shell pm uninstall --user 0 com.android.fileexplorer
 adb shell pm uninstall --user 0 com.android.providers.calendar
 adb shell pm uninstall --user 0 com.android.providers.downloads
 adb shell pm uninstall --user 0 com.android.providers.downloads.ui
-adb shell pm uninstall --user 0 com.android.thememanager
+adb shell pm uninstall --user 0 com.android.quicksearchbox
 adb shell pm uninstall --user 0 com.android.traceur
 adb shell pm uninstall --user 0 com.android.wallpaper.livepicker
-adb shell pm uninstall --user 0 com.android.wallpaperbackup
-adb shell pm uninstall --user 0 com.android.wallpapercropper
 adb shell pm uninstall --user 0 com.android.wallpaperpicker
-adb shell pm uninstall --user 0 com.google.android.marvin.talkback
+adb shell pm uninstall --user 0 com.android.wallpapercropper
 adb shell pm uninstall --user 0 com.goodix.gftest
+adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 adb shell pm uninstall --user 0 com.miui.accessibility
 adb shell pm uninstall --user 0 com.miui.analytics
 adb shell pm uninstall --user 0 com.miui.bugreport
@@ -33,8 +33,8 @@ adb shell pm uninstall --user 0 com.miui.cloudbackup
 adb shell pm uninstall --user 0 com.miui.cloudservice
 adb shell pm uninstall --user 0 com.miui.gallery
 adb shell pm uninstall --user 0 com.miui.greenguard
-adb shell pm uninstall --user 0 com.miui.huanji
 adb shell pm uninstall --user 0 com.miui.hybrid
+adb shell pm uninstall --user 0 com.miui.huanji
 adb shell pm uninstall --user 0 com.miui.miservice
 adb shell pm uninstall --user 0 com.miui.nextpay
 adb shell pm uninstall --user 0 com.miui.notes
@@ -58,5 +58,7 @@ adb shell pm uninstall --user 0 com.xiaomi.aiasst.service
 adb shell pm uninstall --user 0 com.xiaomi.aiasst.vision
 adb shell pm uninstall --user 0 com.xiaomi.gamecenter
 adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service
-adb shell pm uninstall --user 0 com.xiaomi.gnss.p
+adb shell pm uninstall --user 0 com.xiaomi.gnss.polaris
+adb shell pm uninstall --user 0 com.xiaomi.joyose
+adb shell pm uninstall --user 0 com.xiaomi.me
 ```
