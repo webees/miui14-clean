@@ -23,6 +23,7 @@ adb shell pm uninstall --user 0 com.android.deskclock
 adb shell pm uninstall --user 0 com.android.email
 adb shell pm uninstall --user 0 com.android.fileexplorer
 adb shell pm uninstall --user 0 com.android.midrive
+adb shell pm uninstall --user 0 com.android.printspooler
 adb shell pm uninstall --user 0 com.android.providers.calendar
 adb shell pm uninstall --user 0 com.android.providers.downloads
 adb shell pm uninstall --user 0 com.android.providers.downloads.ui
@@ -58,6 +59,7 @@ adb shell pm uninstall --user 0 com.miui.analytics
 adb shell pm uninstall --user 0 com.miui.audiomonitor
 adb shell pm uninstall --user 0 com.miui.bugreport
 adb shell pm uninstall --user 0 com.miui.calculator
+adb shell pm uninstall --user 0 com.miui.carlink
 adb shell pm uninstall --user 0 com.miui.cleanmaster
 adb shell pm uninstall --user 0 com.miui.cloudbackup
 adb shell pm uninstall --user 0 com.miui.cloudservice
@@ -75,6 +77,8 @@ adb shell pm uninstall --user 0 com.miui.hybrid
 adb shell pm uninstall --user 0 com.miui.hybrid.accessory
 adb shell pm uninstall --user 0 com.miui.klo.bugreport
 adb shell pm uninstall --user 0 com.miui.miservice
+adb shell pm uninstall --user 0 com.miui.misound
+adb shell pm uninstall --user 0 com.miui.miwallpaper
 adb shell pm uninstall --user 0 com.miui.newhome
 adb shell pm uninstall --user 0 com.miui.newmidrive
 adb shell pm uninstall --user 0 com.miui.nextpay
@@ -119,6 +123,7 @@ adb shell pm uninstall --user 0 com.xiaomi.gnss.polaris
 adb shell pm uninstall --user 0 com.xiaomi.joyose
 adb shell pm uninstall --user 0 com.xiaomi.jr
 adb shell pm uninstall --user 0 com.xiaomi.macro
+adb shell pm uninstall --user 0 com.xiaomi.mi_connect_service
 adb shell pm uninstall --user 0 com.xiaomi.midrop
 adb shell pm uninstall --user 0 com.xiaomi.migameservice
 adb shell pm uninstall --user 0 com.xiaomi.mitunes
