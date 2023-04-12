@@ -1,14 +1,17 @@
 # miui14-clean
 
 ```
+adb install Edge.apk
+adb install Gboard.apk
+adb install SDmaid.apk
+adb install Magisk-v26.1.apk
 adb push boot.img /sdcard/boot.img
-adb push Magisk-v26.0.apk /sdcard/Magisk-v26.0.apk
 adb pull /sdcard/Download/magisk_patched-26000_m5RrF.img E:\
 fastboot flash boot magisk_patched-26000_m5RrF.img
 ```
 
 ```
-adb.exe shell pm list packages
+# adb.exe shell pm list packages
 # adb shell pm disable-user com.xiaomi.gamecenter
 
 adb shell pm uninstall --user 0 cn.wps.moffice_eng.xiaomi.lite
@@ -160,4 +163,6 @@ adb shell pm uninstall --user 0 com.ximalaya.ting.android
 adb shell pm uninstall --user 0 com.xunmeng.pinduoduo
 adb shell pm uninstall --user 0 com.zhihu.android
 adb shell pm uninstall --user 0 tv.danmaku.bili
+
+pause
 ```
