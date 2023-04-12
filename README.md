@@ -6,7 +6,7 @@ adb install Gboard.apk
 adb install SDmaid.apk
 adb install Magisk-v26.1.apk
 adb push boot.img /sdcard/boot.img
-adb pull /sdcard/Download/magisk_patched-26000_m5RrF.img E:\
+adb pull /sdcard/Download/magisk_patched-26000_m5RrF.img E:/tmp
 fastboot flash boot magisk_patched-26000_m5RrF.img
 ```
 
