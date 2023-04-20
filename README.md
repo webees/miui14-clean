@@ -1,4 +1,5 @@
-# miui14-clean
+# 【SD Maid】Stopped 104 applications
+![20230420122733](https://user-images.githubusercontent.com/5155291/233258266-b2ed9253-6a2d-4b57-9ed9-1918cb92350a.jpg)
 
 ```
 adb install Edge.apk
@@ -163,6 +164,7 @@ adb shell pm uninstall --user 0 com.ximalaya.ting.android
 adb shell pm uninstall --user 0 com.xunmeng.pinduoduo
 adb shell pm uninstall --user 0 com.zhihu.android
 adb shell pm uninstall --user 0 tv.danmaku.bili
+adb shell pm uninstall --user 0 org.mipay.android.manager
 
 pause
 ```
